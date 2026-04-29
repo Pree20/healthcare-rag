@@ -116,6 +116,11 @@ def generate(query: str, chunks: list[dict] | None = None) -> dict:
         config["system"], _format_context(chunks)
     )
 
+    print(f"[answer] Passing {len(chunks)} chunks to LLM:")
+    for i, chunk in enumerate(chunks, 1):
+        preview = chunk["text"].replace("\n", " ")[:100]
+        print(f"  [{i}] {chunk['metadata']['drug_name']} | {chunk['metadata']['section']} | {preview}")
+
     response = _get_client().chat.completions.create(
         model=MODEL,
         max_tokens=1024,

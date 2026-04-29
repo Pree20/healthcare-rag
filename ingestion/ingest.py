@@ -3,11 +3,12 @@ from ingestion.chunk        import chunk_sections
 from ingestion.embed        import embed_chunks
 from vectorstore.store      import add_chunks
 import json
+from pathlib import Path
 from config.settings import DATA_PROCESSED_DIR
 
-def run_ingestion(limit: int = None):
+def run_ingestion(limit: int = None, data_dir: Path = None):
     print("Step 1/4 — Parsing FDA XML files...")
-    sections = parse_all(limit=limit)
+    sections = parse_all(limit=limit, data_dir=data_dir)
     print(f"  Got {len(sections)} sections")
 
     print("Step 2/4 — Chunking sections...")
@@ -38,6 +39,10 @@ def run_ingestion(limit: int = None):
     print("Done. ChromaDB collection is ready.")
 
 if __name__ == "__main__":
-    # Start with limit=10 to verify the full pipeline works
-    # before running on your full corpus
-    run_ingestion(limit=5)
+    import os
+    if os.getenv("CI"):
+        from config.settings import CI_DATA_DIR
+        print("CI environment detected — using ci_fixtures data")
+        run_ingestion(data_dir=CI_DATA_DIR)
+    else:
+        run_ingestion(limit=5)

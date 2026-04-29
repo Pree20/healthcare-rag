@@ -74,12 +74,13 @@ def extract_sections(xml_path: Path) -> list[dict]:
     return sections
 
 
-def parse_all(limit: int = None) -> list[dict]:
+def parse_all(limit: int = None, data_dir: Path = None) -> list[dict]:
     """
-    Parse every XML file in DATA_RAW_DIR.
+    Parse every XML file in data_dir (defaults to DATA_RAW_DIR).
     limit=20 during development so you don't wait for all files.
     """
-    xml_files = list(DATA_RAW_DIR.glob("*.xml"))
+    source_dir = data_dir if data_dir is not None else DATA_RAW_DIR
+    xml_files = list(source_dir.glob("*.xml"))
     if limit:
         xml_files = xml_files[:limit]
 

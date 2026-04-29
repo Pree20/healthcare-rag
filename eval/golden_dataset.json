@@ -1,0 +1,471 @@
+[
+  {
+    "id": "letrozole_001",
+    "question": "What are the contraindications for Letrozole?",
+    "expected_answer": "Letrozole is contraindicated in pregnancy because it can cause fetal harm, and in patients with known hypersensitivity to the active substance or to any of the excipients.",
+    "drug_name": "Letrozole",
+    "expected_section": "CONTRAINDICATIONS SECTION"
+  },
+  {
+    "id": "letrozole_002",
+    "question": "What is the recommended dose of Letrozole?",
+    "expected_answer": "The recommended dose of Letrozole is one 2.5 mg tablet administered once a day, without regard to meals.",
+    "drug_name": "Letrozole",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "letrozole_003",
+    "question": "What is the dose adjustment for Letrozole in patients with severe hepatic impairment?",
+    "expected_answer": "The dose of Letrozole in patients with cirrhosis and severe hepatic dysfunction should be reduced by 50%. The recommended dose for such patients is 2.5 mg administered every other day.",
+    "drug_name": "Letrozole",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "letrozole_004",
+    "question": "Is dose adjustment required for Letrozole in patients with renal impairment?",
+    "expected_answer": "No dosage adjustment is required for patients with renal impairment if creatinine clearance is greater than or equal to 10 mL/min.",
+    "drug_name": "Letrozole",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "letrozole_005",
+    "question": "What is Letrozole indicated for?",
+    "expected_answer": "Letrozole is indicated for adjuvant treatment of postmenopausal women with hormone receptor positive early breast cancer, extended adjuvant treatment of postmenopausal women with early breast cancer who have received prior standard adjuvant tamoxifen therapy, and first and second-line treatment of postmenopausal women with hormone receptor positive or unknown advanced breast cancer.",
+    "drug_name": "Letrozole",
+    "expected_section": "INDICATIONS & USAGE SECTION"
+  },
+  {
+    "id": "letrozole_006",
+    "question": "What effect does Letrozole have on bone mineral density?",
+    "expected_answer": "Use of Letrozole may cause decreases in bone mineral density. A safety study showed a median decrease in lumbar spine BMD of 4.1% in the Letrozole arm compared to a median increase of 0.3% in the tamoxifen arm at 24 months.",
+    "drug_name": "Letrozole",
+    "expected_section": "WARNINGS AND PRECAUTIONS SECTION"
+  },
+  {
+    "id": "letrozole_007",
+    "question": "What is the effect of Letrozole on cholesterol levels?",
+    "expected_answer": "Letrozole may cause increases in total cholesterol. In the adjuvant trial, hypercholesterolemia was reported in 52.3% of Letrozole patients compared to 28.6% of tamoxifen patients. Consideration should be given to monitoring serum cholesterol.",
+    "drug_name": "Letrozole",
+    "expected_section": "WARNINGS AND PRECAUTIONS SECTION"
+  },
+  {
+    "id": "letrozole_008",
+    "question": "What should women of reproductive potential be advised about when taking Letrozole?",
+    "expected_answer": "Females of reproductive potential should be advised to use effective contraception during therapy with Letrozole and for at least 3 weeks after the last dose. They should also have a pregnancy test prior to starting treatment.",
+    "drug_name": "Letrozole",
+    "expected_section": "WARNINGS AND PRECAUTIONS SECTION"
+  },
+  {
+    "id": "letrozole_009",
+    "question": "What is the mechanism of action of Letrozole?",
+    "expected_answer": "Letrozole is a nonsteroidal competitive inhibitor of the aromatase enzyme system. It inhibits the conversion of androgens to estrogens by competitively binding to the heme of the cytochrome P450 subunit of the aromatase enzyme, resulting in a reduction of estrogen biosynthesis in all tissues.",
+    "drug_name": "Letrozole",
+    "expected_section": "MECHANISM OF ACTION SECTION"
+  },
+  {
+    "id": "letrozole_010",
+    "question": "What are the most common adverse reactions reported with Letrozole in the adjuvant setting?",
+    "expected_answer": "The most common adverse reactions with Letrozole greater than 20% were hot flashes, arthralgia, flushing, asthenia, edema, headache, dizziness, hypercholesterolemia, sweating increased, bone pain, and musculoskeletal complaints.",
+    "drug_name": "Letrozole",
+    "expected_section": "ADVERSE REACTIONS SECTION"
+  },
+  {
+    "id": "letrozole_011",
+    "question": "What is the effect of coadministration of Letrozole and Tamoxifen?",
+    "expected_answer": "Coadministration of Letrozole and Tamoxifen 20 mg daily resulted in a reduction of Letrozole plasma levels of 38% on average.",
+    "drug_name": "Letrozole",
+    "expected_section": "DRUG INTERACTIONS SECTION"
+  },
+  {
+    "id": "letrozole_012",
+    "question": "What is the highest single dose of Letrozole that has been reported in overdose cases?",
+    "expected_answer": "In isolated cases of Letrozole overdose, the highest single dose ingested was 62.5 mg or 25 tablets.",
+    "drug_name": "Letrozole",
+    "expected_section": "OVERDOSAGE SECTION"
+  },
+  {
+    "id": "letrozole_013",
+    "question": "Should Letrozole be used during breastfeeding?",
+    "expected_answer": "Letrozole should not be used during breastfeeding. Because of the potential for serious adverse reactions in breastfed infants, lactating women should not breastfeed while taking Letrozole and for at least 3 weeks after the last dose.",
+    "drug_name": "Letrozole",
+    "expected_section": "USE IN SPECIFIC POPULATIONS SECTION"
+  },
+  {
+    "id": "acyclovir_001",
+    "question": "What is Acyclovir indicated for?",
+    "expected_answer": "Acyclovir is indicated for the acute treatment of herpes zoster (shingles), the treatment of initial episodes and management of recurrent episodes of genital herpes, and the treatment of chickenpox (varicella).",
+    "drug_name": "Acyclovir",
+    "expected_section": "INDICATIONS & USAGE SECTION"
+  },
+  {
+    "id": "acyclovir_002",
+    "question": "What are the contraindications for Acyclovir?",
+    "expected_answer": "Acyclovir is contraindicated in patients who have had a demonstrated clinically significant hypersensitivity reaction such as anaphylaxis or severe cutaneous adverse reactions to Acyclovir, Valacyclovir, or any component of the formulation.",
+    "drug_name": "Acyclovir",
+    "expected_section": "CONTRAINDICATIONS SECTION"
+  },
+  {
+    "id": "acyclovir_003",
+    "question": "What is the recommended dose of Acyclovir for herpes zoster?",
+    "expected_answer": "The recommended dose of Acyclovir for acute treatment of herpes zoster is 800 mg every 4 hours orally, 5 times daily for 7 to 10 days.",
+    "drug_name": "Acyclovir",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "acyclovir_004",
+    "question": "What is the recommended dose of Acyclovir for initial genital herpes?",
+    "expected_answer": "The recommended dose of Acyclovir for treatment of initial genital herpes is 200 mg every 4 hours, 5 times daily for 10 days.",
+    "drug_name": "Acyclovir",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "acyclovir_005",
+    "question": "What is the recommended dose of Acyclovir for chickenpox in children?",
+    "expected_answer": "For children 2 years of age and older, the recommended dose of Acyclovir for chickenpox is 20 mg/kg per dose orally 4 times daily (80 mg/kg/day) for 5 days. Children over 40 kg should receive the adult dose.",
+    "drug_name": "Acyclovir",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "acyclovir_006",
+    "question": "What serious adverse events have been reported with Acyclovir therapy?",
+    "expected_answer": "Renal failure in some cases resulting in death has been observed with Acyclovir therapy. Thrombotic thrombocytopenic purpura and hemolytic uremic syndrome which has resulted in death has occurred in immunocompromised patients receiving Acyclovir therapy. Severe cutaneous adverse reactions including Stevens-Johnson syndrome and toxic epidermal necrolysis have also been reported.",
+    "drug_name": "Acyclovir",
+    "expected_section": "WARNINGS SECTION"
+  },
+  {
+    "id": "acyclovir_007",
+    "question": "What drug interaction is known with Acyclovir?",
+    "expected_answer": "Coadministration of probenecid with intravenous Acyclovir has been shown to increase the mean Acyclovir half-life and the area under the concentration-time curve. Urinary excretion and renal clearance were correspondingly reduced.",
+    "drug_name": "Acyclovir",
+    "expected_section": "CLINICAL PHARMACOLOGY SECTION"
+  },
+  {
+    "id": "acyclovir_008",
+    "question": "What is the plasma elimination half-life of Acyclovir?",
+    "expected_answer": "The plasma elimination half-life of Acyclovir is 2.5 to 3.3 hours.",
+    "drug_name": "Acyclovir",
+    "expected_section": "CLINICAL PHARMACOLOGY SECTION"
+  },
+  {
+    "id": "acyclovir_009",
+    "question": "What dose adjustment is required for Acyclovir in patients with renal impairment when using the 800 mg regimen?",
+    "expected_answer": "For the 800 mg every 4 hours regimen, patients with creatinine clearance greater than 25 mL/min receive 800 mg every 4 hours 5 times daily. Patients with creatinine clearance 10 to 25 mL/min receive 800 mg every 8 hours. Patients with creatinine clearance 0 to 10 mL/min receive 800 mg every 12 hours.",
+    "drug_name": "Acyclovir",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "acyclovir_010",
+    "question": "What are the most frequent adverse events reported with Acyclovir for genital herpes short-term treatment?",
+    "expected_answer": "The most frequent adverse events reported during clinical trials of treatment of genital herpes with Acyclovir 200 mg administered orally 5 times daily were nausea and/or vomiting in 8 of 298 patient treatments (2.7%).",
+    "drug_name": "Acyclovir",
+    "expected_section": "ADVERSE REACTIONS SECTION"
+  },
+  {
+    "id": "acyclovir_011",
+    "question": "Can Acyclovir be taken with food?",
+    "expected_answer": "Yes, there was no effect of food on the absorption of Acyclovir, therefore Acyclovir Capsules may be administered with or without food.",
+    "drug_name": "Acyclovir",
+    "expected_section": "CLINICAL PHARMACOLOGY SECTION"
+  },
+  {
+    "id": "acyclovir_012",
+    "question": "What is the chronic suppressive therapy dose for recurrent genital herpes with Acyclovir?",
+    "expected_answer": "The recommended dose for chronic suppressive therapy for recurrent genital herpes is 400 mg 2 times daily for up to 12 months, followed by re-evaluation.",
+    "drug_name": "Acyclovir",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "hydrocortisone_001",
+    "question": "What is Hydrocortisone topical indicated for?",
+    "expected_answer": "Topical corticosteroids including Hydrocortisone are indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "INDICATIONS & USAGE SECTION"
+  },
+  {
+    "id": "hydrocortisone_002",
+    "question": "What are the contraindications for topical Hydrocortisone?",
+    "expected_answer": "Topical corticosteroids including Hydrocortisone are contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "CONTRAINDICATIONS SECTION"
+  },
+  {
+    "id": "hydrocortisone_003",
+    "question": "How should topical Hydrocortisone be applied?",
+    "expected_answer": "Hydrocortisone should be applied to the affected area as a thin film from two to four times daily depending on the severity of the condition.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "hydrocortisone_004",
+    "question": "What systemic effects can topical Hydrocortisone cause?",
+    "expected_answer": "Systemic absorption of topical corticosteroids has produced reversible hypothalamic-pituitary-adrenal axis suppression, manifestations of Cushing's syndrome, hyperglycemia, and glucosuria in some patients.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "PRECAUTIONS SECTION"
+  },
+  {
+    "id": "hydrocortisone_005",
+    "question": "Why are children more susceptible to systemic toxicity from topical Hydrocortisone?",
+    "expected_answer": "Pediatric patients may demonstrate greater susceptibility to topical corticosteroid-induced HPA axis suppression and Cushing's syndrome than mature patients because of a larger skin surface area to body weight ratio.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "PRECAUTIONS SECTION"
+  },
+  {
+    "id": "hydrocortisone_006",
+    "question": "What are the local adverse reactions associated with topical Hydrocortisone?",
+    "expected_answer": "Local adverse reactions reported with topical corticosteroids include burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "ADVERSE REACTIONS SECTION"
+  },
+  {
+    "id": "hydrocortisone_007",
+    "question": "What is the mechanism of anti-inflammatory activity of topical Hydrocortisone?",
+    "expected_answer": "The mechanism of anti-inflammatory activity of topical corticosteroids including Hydrocortisone is unclear. Various laboratory methods including vasoconstrictor assays are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "CLINICAL PHARMACOLOGY SECTION"
+  },
+  {
+    "id": "hydrocortisone_008",
+    "question": "Can topical Hydrocortisone be used during pregnancy?",
+    "expected_answer": "Topical corticosteroids should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Drugs of this class should not be used extensively on pregnant patients, in large amounts, or for prolonged periods of time.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "PRECAUTIONS SECTION"
+  },
+  {
+    "id": "hydrocortisone_009",
+    "question": "What factors increase systemic absorption of topical Hydrocortisone?",
+    "expected_answer": "Conditions which augment systemic absorption include the application of the more potent steroids, use over large surface areas, prolonged use, and the addition of occlusive dressings.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "PRECAUTIONS SECTION"
+  },
+  {
+    "id": "hydrocortisone_010",
+    "question": "What overdosage effect can topically applied Hydrocortisone cause?",
+    "expected_answer": "Topically applied corticosteroids can be absorbed in sufficient amounts to produce systemic effects.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "OVERDOSAGE SECTION"
+  },
+  {
+    "id": "liraglutide_001",
+    "question": "What is Liraglutide injection indicated for?",
+    "expected_answer": "Liraglutide injection is indicated in combination with a reduced calorie diet and increased physical activity to reduce excess body weight and maintain weight reduction long term in adults and pediatric patients aged 12 years and older with body weight greater than 60 kg and obesity, and in adults with overweight in the presence of at least one weight-related comorbid condition.",
+    "drug_name": "Liraglutide",
+    "expected_section": "INDICATIONS & USAGE SECTION"
+  },
+  {
+    "id": "liraglutide_002",
+    "question": "What are the contraindications for Liraglutide?",
+    "expected_answer": "Liraglutide injection is contraindicated in patients with a personal or family history of medullary thyroid carcinoma or patients with Multiple Endocrine Neoplasia syndrome type 2, and in patients with a serious hypersensitivity reaction to Liraglutide or to any of the excipients in Liraglutide injection.",
+    "drug_name": "Liraglutide",
+    "expected_section": "CONTRAINDICATIONS SECTION"
+  },
+  {
+    "id": "liraglutide_003",
+    "question": "What is the recommended maintenance dose of Liraglutide for adults?",
+    "expected_answer": "For adults, the recommended dosage of Liraglutide injection is 3 mg daily. Lower dosages are for titration only.",
+    "drug_name": "Liraglutide",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "liraglutide_004",
+    "question": "How should Liraglutide be initiated in terms of dose escalation?",
+    "expected_answer": "Liraglutide should be initiated with a dose of 0.6 mg daily for one week, then increased to 1.2 mg in week 2, 1.8 mg in week 3, 2.4 mg in week 4, and 3 mg from week 5 onward.",
+    "drug_name": "Liraglutide",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "liraglutide_005",
+    "question": "What thyroid risk is associated with Liraglutide?",
+    "expected_answer": "Liraglutide causes dose-dependent and treatment-duration-dependent thyroid C-cell tumors including adenomas and carcinomas at clinically relevant exposures in both genders of rats and mice. It is unknown whether Liraglutide injection will cause thyroid C-cell tumors including medullary thyroid carcinoma in humans.",
+    "drug_name": "Liraglutide",
+    "expected_section": "BOXED WARNING SECTION"
+  },
+  {
+    "id": "liraglutide_006",
+    "question": "What gastrointestinal adverse reactions are most common with Liraglutide?",
+    "expected_answer": "The most common adverse reactions reported with Liraglutide are nausea (39.3%), diarrhea (20.9%), constipation (19.4%), and vomiting (15.7%).",
+    "drug_name": "Liraglutide",
+    "expected_section": "ADVERSE REACTIONS SECTION"
+  },
+  {
+    "id": "liraglutide_007",
+    "question": "What is the mechanism of action of Liraglutide?",
+    "expected_answer": "Liraglutide is an acylated human GLP-1 receptor agonist with 97% amino acid sequence homology to endogenous human GLP-1. It binds to and activates the GLP-1 receptor, a cell-surface receptor coupled to adenylyl cyclase activation through the stimulatory G-protein. It has a plasma half-life of 13 hours after subcutaneous administration due to self-association that delays absorption, plasma protein binding, and stability against metabolic degradation.",
+    "drug_name": "Liraglutide",
+    "expected_section": "MECHANISM OF ACTION SECTION"
+  },
+  {
+    "id": "liraglutide_008",
+    "question": "What is the risk of pancreatitis with Liraglutide?",
+    "expected_answer": "Acute pancreatitis including fatal and non-fatal hemorrhagic or necrotizing pancreatitis has been observed in patients treated with GLP-1 receptor agonists including Liraglutide. In clinical trials, acute pancreatitis was confirmed in 9 (0.3%) of 3291 Liraglutide-treated patients compared to 2 (0.1%) of 1843 placebo-treated patients.",
+    "drug_name": "Liraglutide",
+    "expected_section": "WARNINGS AND PRECAUTIONS SECTION"
+  },
+  {
+    "id": "liraglutide_009",
+    "question": "How does Liraglutide affect heart rate?",
+    "expected_answer": "Mean increases in resting heart rate of 2 to 3 beats per minute were observed with routine clinical monitoring in Liraglutide-treated adult patients compared to placebo. In a clinical pharmacology trial, Liraglutide treatment was associated with a heart rate that was 4 to 9 bpm higher than that observed with placebo.",
+    "drug_name": "Liraglutide",
+    "expected_section": "WARNINGS AND PRECAUTIONS SECTION"
+  },
+  {
+    "id": "liraglutide_010",
+    "question": "Should Liraglutide be used during pregnancy?",
+    "expected_answer": "Based on animal reproduction studies, there may be risks to the fetus from exposure to Liraglutide during pregnancy. Additionally, weight loss offers no benefit to a pregnant patient and may cause fetal harm. When a pregnancy is recognized, Liraglutide injection should be discontinued.",
+    "drug_name": "Liraglutide",
+    "expected_section": "USE IN SPECIFIC POPULATIONS SECTION"
+  },
+  {
+    "id": "liraglutide_011",
+    "question": "What should be done if a patient on Liraglutide has not lost sufficient weight after 16 weeks?",
+    "expected_answer": "Evaluate the change in body weight 16 weeks after initiating Liraglutide injection and discontinue Liraglutide if the patient has not lost at least 4% of baseline body weight, since it is unlikely that the patient will achieve and sustain clinically meaningful weight loss with continued treatment.",
+    "drug_name": "Liraglutide",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "liraglutide_012",
+    "question": "What is the risk of suicidal behavior with Liraglutide?",
+    "expected_answer": "In Liraglutide adult clinical trials, 9 (0.3%) of 3384 Liraglutide-treated patients reported suicidal ideation. In a Liraglutide pediatric clinical trial, 1 (0.8%) of the 125 Liraglutide-treated patients died by suicide. Patients treated with Liraglutide should be monitored for depression or suicidal thoughts or behavior.",
+    "drug_name": "Liraglutide",
+    "expected_section": "WARNINGS AND PRECAUTIONS SECTION"
+  },
+  {
+    "id": "liraglutide_013",
+    "question": "What is the bioavailability of Liraglutide following subcutaneous administration?",
+    "expected_answer": "The absolute bioavailability of Liraglutide following subcutaneous administration is approximately 55%.",
+    "drug_name": "Liraglutide",
+    "expected_section": "CLINICAL PHARMACOLOGY SECTION"
+  },
+  {
+    "id": "pristiq_001",
+    "question": "What is Pristiq indicated for?",
+    "expected_answer": "Pristiq is indicated for the treatment of adults with major depressive disorder.",
+    "drug_name": "Pristiq",
+    "expected_section": "INDICATIONS & USAGE SECTION"
+  },
+  {
+    "id": "pristiq_002",
+    "question": "What are the contraindications for Pristiq?",
+    "expected_answer": "Pristiq is contraindicated in patients with hypersensitivity to desvenlafaxine succinate, venlafaxine hydrochloride or to any excipients in the formulation. It is also contraindicated with MAOIs intended to treat psychiatric disorders within 7 days of stopping Pristiq or within 14 days of stopping an MAOI, and in patients being treated with linezolid or intravenous methylene blue.",
+    "drug_name": "Pristiq",
+    "expected_section": "CONTRAINDICATIONS SECTION"
+  },
+  {
+    "id": "pristiq_003",
+    "question": "What is the recommended dose of Pristiq?",
+    "expected_answer": "The recommended dose for Pristiq is 50 mg once daily, with or without food. The 50 mg dose is both a starting dose and the therapeutic dose.",
+    "drug_name": "Pristiq",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "pristiq_004",
+    "question": "What is the maximum recommended dose of Pristiq for patients with severe renal impairment?",
+    "expected_answer": "The maximum recommended dose in patients with severe renal impairment (creatinine clearance 15 to 29 mL/min) or end-stage renal disease is 25 mg every day or 50 mg every other day.",
+    "drug_name": "Pristiq",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "pristiq_005",
+    "question": "What is the mechanism of action of Pristiq?",
+    "expected_answer": "The exact mechanism of the antidepressant action of desvenlafaxine is unknown but is thought to be related to the potentiation of serotonin and norepinephrine in the central nervous system through inhibition of their reuptake. Non-clinical studies have shown that desvenlafaxine is a potent and selective SNRI.",
+    "drug_name": "Pristiq",
+    "expected_section": "MECHANISM OF ACTION SECTION"
+  },
+  {
+    "id": "pristiq_006",
+    "question": "What are the most common adverse reactions with Pristiq at the 50 mg dose?",
+    "expected_answer": "The most commonly observed adverse reactions with Pristiq at the 50 or 100 mg dose groups occurring at incidence of 5% or greater and at least twice the rate of placebo were nausea, dizziness, insomnia, hyperhidrosis, constipation, somnolence, decreased appetite, anxiety, and specific male sexual function disorders.",
+    "drug_name": "Pristiq",
+    "expected_section": "ADVERSE REACTIONS SECTION"
+  },
+  {
+    "id": "pristiq_007",
+    "question": "What is the risk of serotonin syndrome with Pristiq?",
+    "expected_answer": "SNRIs and SSRIs including Pristiq can precipitate serotonin syndrome, a potentially life-threatening condition. The risk is increased with concomitant use of other serotonergic drugs including triptans, tricyclic antidepressants, fentanyl, lithium, tramadol, meperidine, methadone, tryptophan, buspirone, amphetamines, and St. John's Wort, and with MAOIs.",
+    "drug_name": "Pristiq",
+    "expected_section": "WARNINGS AND PRECAUTIONS SECTION"
+  },
+  {
+    "id": "pristiq_008",
+    "question": "What is the risk of bleeding with Pristiq?",
+    "expected_answer": "Drugs that interfere with serotonin reuptake inhibition including Pristiq may increase the risk of bleeding events. Concomitant use of aspirin, nonsteroidal anti-inflammatory drugs, warfarin, and other anticoagulants may add to this risk. Bleeding events related to SSRIs and SNRIs have ranged from ecchymosis, hematoma, epistaxis, and petechiae to life-threatening hemorrhages.",
+    "drug_name": "Pristiq",
+    "expected_section": "WARNINGS AND PRECAUTIONS SECTION"
+  },
+  {
+    "id": "pristiq_009",
+    "question": "How long should elapse between stopping an MAOI and starting Pristiq?",
+    "expected_answer": "At least 14 days should elapse between discontinuation of an MAOI intended to treat psychiatric disorders and initiation of therapy with Pristiq.",
+    "drug_name": "Pristiq",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "pristiq_010",
+    "question": "What discontinuation symptoms are associated with stopping Pristiq?",
+    "expected_answer": "Adverse reactions after discontinuation of Pristiq particularly after abrupt discontinuation include nausea, sweating, dysphoric mood, irritability, agitation, dizziness, sensory disturbances such as paresthesia and electric shock sensations, tremor, anxiety, confusion, headache, lethargy, emotional lability, insomnia, hypomania, tinnitus, and seizures.",
+    "drug_name": "Pristiq",
+    "expected_section": "WARNINGS AND PRECAUTIONS SECTION"
+  },
+  {
+    "id": "pristiq_011",
+    "question": "What is the oral bioavailability of Pristiq?",
+    "expected_answer": "The absolute oral bioavailability of Pristiq after oral administration is about 80%.",
+    "drug_name": "Pristiq",
+    "expected_section": "CLINICAL PHARMACOLOGY SECTION"
+  },
+  {
+    "id": "pristiq_012",
+    "question": "What is the effect of a high fat meal on Pristiq absorption?",
+    "expected_answer": "Ingestion of a high-fat meal of 800 to 1000 calories increased desvenlafaxine maximum concentration by about 16% and had no effect on overall exposure as measured by AUC.",
+    "drug_name": "Pristiq",
+    "expected_section": "CLINICAL PHARMACOLOGY SECTION"
+  },
+  {
+    "id": "pristiq_013",
+    "question": "What suicidality risk is associated with Pristiq in young adults?",
+    "expected_answer": "Pooled analyses of short-term placebo-controlled studies showed that antidepressant drugs increase the risk of suicidal thinking and behavior in children, adolescents, and young adults ages 18 to 24 with major depressive disorder and other psychiatric disorders. For patients aged 18 to 24, there were 5 additional cases of suicidality per 1000 patients treated compared to placebo.",
+    "drug_name": "Pristiq",
+    "expected_section": "WARNINGS AND PRECAUTIONS SECTION"
+  },
+  {
+    "id": "pristiq_014",
+    "question": "What is the management recommendation for Pristiq overdose?",
+    "expected_answer": "No specific antidotes for Pristiq are known. In managing overdosage, consider the possibility of multiple drug involvement. In case of overdose, call Poison Control Center at 1-800-222-1222 for latest recommendations.",
+    "drug_name": "Pristiq",
+    "expected_section": "OVERDOSAGE SECTION"
+  },
+  {
+    "id": "out_of_corpus_001",
+    "question": "What is the recommended dose of Metformin?",
+    "expected_answer": "I cannot answer this question from the available drug label information.",
+    "drug_name": "Metformin",
+    "expected_section": "N/A"
+  },
+  {
+    "id": "out_of_corpus_002",
+    "question": "What are the contraindications for Warfarin?",
+    "expected_answer": "I cannot answer this question from the available drug label information.",
+    "drug_name": "Warfarin",
+    "expected_section": "N/A"
+  },
+  {
+    "id": "out_of_corpus_003",
+    "question": "What is Ozempic indicated for?",
+    "expected_answer": "I cannot answer this question from the available drug label information.",
+    "drug_name": "Ozempic",
+    "expected_section": "N/A"
+  },
+  {
+    "id": "out_of_corpus_004",
+    "question": "What are the side effects of Lisinopril?",
+    "expected_answer": "I cannot answer this question from the available drug label information.",
+    "drug_name": "Lisinopril",
+    "expected_section": "N/A"
+  },
+  {
+    "id": "out_of_corpus_005",
+    "question": "What is the mechanism of action of Amoxicillin?",
+    "expected_answer": "I cannot answer this question from the available drug label information.",
+    "drug_name": "Amoxicillin",
+    "expected_section": "N/A"
+  }
+]

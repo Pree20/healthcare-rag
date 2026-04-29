@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json; data = json.load\\(open\\('/e/RAG project/data/processed/sections.json'\\)\\); print\\(f'Total sections: {len\\(data\\)}'\\); drugs = set\\(s['drug_name'] for s in data\\); print\\(f'Unique drugs: {len\\(drugs\\)}'\\); print\\(f'Drugs: {sorted\\(drugs\\)}'\\)\")"
+    ]
+  }
+}

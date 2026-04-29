@@ -29,7 +29,7 @@ from config.settings import BASE_DIR
 load_dotenv(BASE_DIR / ".env")
 
 RESULTS_FILE = Path(__file__).parent / "results.json"
-FAITHFULNESS_THRESHOLD = 0.5
+FAITHFULNESS_THRESHOLD = 0.8
 INTER_REQUEST_DELAY = 2.0  # seconds between RAGAS calls
 
 

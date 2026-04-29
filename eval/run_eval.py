@@ -34,7 +34,7 @@ from generation.answer import generate
 GOLDEN_DATASET = Path(__file__).parent / "golden_dataset.json"
 RESULTS_FILE = Path(__file__).parent / "results.json"
 CHECKPOINT_FILE = Path(__file__).parent / "checkpoint.json"
-FAITHFULNESS_THRESHOLD = 0.5
+FAITHFULNESS_THRESHOLD = 0.8
 # Seconds to wait between generation calls to stay under Groq rate limits
 REQUEST_DELAY = 1.5
 

@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.env
+data/processed/chunks_with_embeddings.json
+data/processed/sections.json
+vectorstore/chroma_store/
+eval/checkpoint.json
+eval/results.json
+*.sqlite3

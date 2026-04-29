@@ -7,6 +7,12 @@ from pathlib import Path
 from config.settings import DATA_PROCESSED_DIR
 
 def run_ingestion(limit: int = None, data_dir: Path = None):
+    from config.settings import DATA_RAW_DIR, CI_DATA_DIR
+    source_dir = data_dir if data_dir is not None else DATA_RAW_DIR
+    xml_files = list(source_dir.glob("*.xml"))
+    print(f"[ingest] Reading XML from: {source_dir}")
+    print(f"[ingest] XML files found: {len(xml_files)}")
+
     print("Step 1/4 — Parsing FDA XML files...")
     sections = parse_all(limit=limit, data_dir=data_dir)
     print(f"  Got {len(sections)} sections")

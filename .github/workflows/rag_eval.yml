@@ -26,6 +26,9 @@ jobs:
       - name: Ingest CI fixtures
         run: python -m ingestion.ingest
 
+      - name: Verify ChromaDB populated
+        run: python -c "from vectorstore.store import get_collection; c = get_collection(); print('Chunks in store:', c.count())"
+
       - name: Run RAG evaluation
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}

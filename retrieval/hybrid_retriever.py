@@ -20,14 +20,20 @@ def search(
     drug_name: when provided, restricts both retrievers to that drug only —
     BM25 results are post-filtered and ChromaDB uses a metadata where-filter.
     """
+    print(f"[hybrid_retriever] drug_name filter: {drug_name!r}")
+
     bm25_results = bm25_search(query, _bm25_index, _bm25_chunks, k=fetch_k)
+    print(f"[hybrid_retriever] BM25 raw results: {len(bm25_results)}")
     if drug_name:
         bm25_results = [
             r for r in bm25_results
             if r["metadata"]["drug_name"] == drug_name
         ]
+        print(f"[hybrid_retriever] BM25 after drug filter: {len(bm25_results)}")
 
     vector_results = vector_search(query, k=fetch_k, drug_name=drug_name)
+    print(f"[hybrid_retriever] vector results: {len(vector_results)}")
 
     fused = fuse(bm25_results, vector_results)
+    print(f"[hybrid_retriever] fused results: {len(fused)}, returning top {k}")
     return fused[:k]

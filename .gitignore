@@ -11,3 +11,8 @@ vectorstore/chroma_store/
 eval/checkpoint.json
 eval/results.json
 *.sqlite3
+# Allow pre-built CI fixtures (override rules above)
+!data/ci_fixtures/chunks_with_embeddings.json
+!data/ci_fixtures/chroma_store/
+!data/ci_fixtures/chroma_store/**
+!data/ci_fixtures/**/*.sqlite3

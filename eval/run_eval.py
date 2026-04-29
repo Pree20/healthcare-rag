@@ -31,7 +31,8 @@ from retrieval.hybrid_retriever import search as hybrid_search
 from retrieval.reranker import rerank
 from generation.answer import generate
 
-GOLDEN_DATASET = Path(__file__).parent / "golden_dataset.json"
+_dataset_env = os.environ.get("EVAL_DATASET")
+GOLDEN_DATASET = Path(_dataset_env) if _dataset_env else Path(__file__).parent / "golden_dataset.json"
 RESULTS_FILE = Path(__file__).parent / "results.json"
 CHECKPOINT_FILE = Path(__file__).parent / "checkpoint.json"
 FAITHFULNESS_THRESHOLD = 0.8

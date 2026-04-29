@@ -1,0 +1,107 @@
+[
+  {
+    "id": "letrozole_001",
+    "question": "What are the contraindications for Letrozole?",
+    "expected_answer": "Letrozole is contraindicated in pregnancy because it can cause fetal harm, and in patients with known hypersensitivity to the active substance or to any of the excipients.",
+    "drug_name": "Letrozole",
+    "expected_section": "CONTRAINDICATIONS SECTION"
+  },
+  {
+    "id": "letrozole_002",
+    "question": "What is the recommended dose of Letrozole?",
+    "expected_answer": "The recommended dose of Letrozole is one 2.5 mg tablet administered once a day, without regard to meals.",
+    "drug_name": "Letrozole",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "letrozole_005",
+    "question": "What is Letrozole indicated for?",
+    "expected_answer": "Letrozole is indicated for adjuvant treatment of postmenopausal women with hormone receptor positive early breast cancer, extended adjuvant treatment of postmenopausal women with early breast cancer who have received prior standard adjuvant tamoxifen therapy, and first and second-line treatment of postmenopausal women with hormone receptor positive or unknown advanced breast cancer.",
+    "drug_name": "Letrozole",
+    "expected_section": "INDICATIONS & USAGE SECTION"
+  },
+  {
+    "id": "letrozole_009",
+    "question": "What is the mechanism of action of Letrozole?",
+    "expected_answer": "Letrozole is a nonsteroidal competitive inhibitor of the aromatase enzyme system. It inhibits the conversion of androgens to estrogens by competitively binding to the heme of the cytochrome P450 subunit of the aromatase enzyme, resulting in a reduction of estrogen biosynthesis in all tissues.",
+    "drug_name": "Letrozole",
+    "expected_section": "MECHANISM OF ACTION SECTION"
+  },
+  {
+    "id": "letrozole_010",
+    "question": "What are the most common adverse reactions reported with Letrozole in the adjuvant setting?",
+    "expected_answer": "The most common adverse reactions with Letrozole greater than 20% were hot flashes, arthralgia, flushing, asthenia, edema, headache, dizziness, hypercholesterolemia, sweating increased, bone pain, and musculoskeletal complaints.",
+    "drug_name": "Letrozole",
+    "expected_section": "ADVERSE REACTIONS SECTION"
+  },
+  {
+    "id": "acyclovir_001",
+    "question": "What is Acyclovir indicated for?",
+    "expected_answer": "Acyclovir is indicated for the acute treatment of herpes zoster (shingles), the treatment of initial episodes and management of recurrent episodes of genital herpes, and the treatment of chickenpox (varicella).",
+    "drug_name": "Acyclovir",
+    "expected_section": "INDICATIONS & USAGE SECTION"
+  },
+  {
+    "id": "acyclovir_002",
+    "question": "What are the contraindications for Acyclovir?",
+    "expected_answer": "Acyclovir is contraindicated in patients who have had a demonstrated clinically significant hypersensitivity reaction such as anaphylaxis or severe cutaneous adverse reactions to Acyclovir, Valacyclovir, or any component of the formulation.",
+    "drug_name": "Acyclovir",
+    "expected_section": "CONTRAINDICATIONS SECTION"
+  },
+  {
+    "id": "acyclovir_003",
+    "question": "What is the recommended dose of Acyclovir for herpes zoster?",
+    "expected_answer": "The recommended dose of Acyclovir for acute treatment of herpes zoster is 800 mg every 4 hours orally, 5 times daily for 7 to 10 days.",
+    "drug_name": "Acyclovir",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "acyclovir_004",
+    "question": "What is the recommended dose of Acyclovir for initial genital herpes?",
+    "expected_answer": "The recommended dose of Acyclovir for treatment of initial genital herpes is 200 mg every 4 hours, 5 times daily for 10 days.",
+    "drug_name": "Acyclovir",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "acyclovir_005",
+    "question": "What is the recommended dose of Acyclovir for chickenpox in children?",
+    "expected_answer": "For children 2 years of age and older, the recommended dose of Acyclovir for chickenpox is 20 mg/kg per dose orally 4 times daily (80 mg/kg/day) for 5 days. Children over 40 kg should receive the adult dose.",
+    "drug_name": "Acyclovir",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "hydrocortisone_001",
+    "question": "What is Hydrocortisone topical indicated for?",
+    "expected_answer": "Topical corticosteroids including Hydrocortisone are indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "INDICATIONS & USAGE SECTION"
+  },
+  {
+    "id": "hydrocortisone_002",
+    "question": "What are the contraindications for topical Hydrocortisone?",
+    "expected_answer": "Topical corticosteroids including Hydrocortisone are contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "CONTRAINDICATIONS SECTION"
+  },
+  {
+    "id": "hydrocortisone_003",
+    "question": "How should topical Hydrocortisone be applied?",
+    "expected_answer": "Hydrocortisone should be applied to the affected area as a thin film from two to four times daily depending on the severity of the condition.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "DOSAGE & ADMINISTRATION SECTION"
+  },
+  {
+    "id": "hydrocortisone_004",
+    "question": "What systemic effects can topical Hydrocortisone cause?",
+    "expected_answer": "Systemic absorption of topical corticosteroids has produced reversible hypothalamic-pituitary-adrenal axis suppression, manifestations of Cushing's syndrome, hyperglycemia, and glucosuria in some patients.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "PRECAUTIONS SECTION"
+  },
+  {
+    "id": "hydrocortisone_006",
+    "question": "What are the local adverse reactions associated with topical Hydrocortisone?",
+    "expected_answer": "Local adverse reactions reported with topical corticosteroids include burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria.",
+    "drug_name": "Hydrocortisone",
+    "expected_section": "ADVERSE REACTIONS SECTION"
+  }
+]

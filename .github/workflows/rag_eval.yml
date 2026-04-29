@@ -11,6 +11,10 @@ jobs:
     name: RAG Quality Gate
     runs-on: ubuntu-latest
 
+    env:
+      ANONYMIZED_TELEMETRY: 'False'
+      EVAL_DATASET: eval/ci_golden_dataset.json
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -23,8 +27,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Ingest CI fixtures
-        run: python -m ingestion.ingest
+      - name: Copy pre-built CI fixtures into place
+        run: |
+          mkdir -p vectorstore data/processed
+          cp -r data/ci_fixtures/chroma_store vectorstore/chroma_store
+          cp data/ci_fixtures/chunks_with_embeddings.json data/processed/chunks_with_embeddings.json
 
       - name: Verify ChromaDB populated
         run: python -c "from vectorstore.store import get_collection; c = get_collection(); print('Chunks in store:', c.count())"

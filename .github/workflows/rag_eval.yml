@@ -27,11 +27,21 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Copy pre-built CI fixtures into place
+      - name: Copy pre-built embeddings cache into place
         run: |
-          mkdir -p vectorstore data/processed
-          cp -r data/ci_fixtures/chroma_store vectorstore/chroma_store
+          mkdir -p data/processed
           cp data/ci_fixtures/chunks_with_embeddings.json data/processed/chunks_with_embeddings.json
+
+      - name: Populate ChromaDB from cached embeddings
+        run: |
+          python -c "
+          import json
+          from vectorstore.store import add_chunks
+          with open('data/processed/chunks_with_embeddings.json') as f:
+              chunks = json.load(f)
+          add_chunks(chunks)
+          print('Chunks in store:', len(chunks))
+          "
 
       - name: Verify ChromaDB populated
         run: python -c "from vectorstore.store import get_collection; c = get_collection(); print('Chunks in store:', c.count())"

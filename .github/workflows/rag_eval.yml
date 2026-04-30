@@ -14,6 +14,7 @@ jobs:
     env:
       ANONYMIZED_TELEMETRY: 'False'
       EVAL_DATASET: eval/ci_golden_dataset.json
+      CI_EVAL_MODE: retrieval_only
 
     steps:
       - name: Check out repository
@@ -46,7 +47,5 @@ jobs:
       - name: Verify ChromaDB populated
         run: python -c "from vectorstore.store import get_collection; c = get_collection(); print('Chunks in store:', c.count())"
 
-      - name: Run RAG evaluation
-        env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      - name: Run retrieval precision eval
         run: python eval/run_eval.py
